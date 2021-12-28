@@ -1,0 +1,7 @@
+The role of objects
+
+1. Store state
+2. Pass state
+3. Group related functionality
+4. Model real-world objects
+
