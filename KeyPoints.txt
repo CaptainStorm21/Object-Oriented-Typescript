@@ -5,3 +5,8 @@ The role of objects
 3. Group related functionality
 4. Model real-world objects
 
+Principles of OO programming
+1.  abstraction
+2.  encapsulation
+3.  inheritance
+4.  polymorphism

@@ -5,7 +5,8 @@ const objLiteral = {
 
 // #### Create object using a class
 class ClassObject {
-    balance = 1000;
+  balance = 1000;
+
 }
 const classObj = new ClassObject();
 
