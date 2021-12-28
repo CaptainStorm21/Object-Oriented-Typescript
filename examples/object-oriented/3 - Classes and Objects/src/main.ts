@@ -3,10 +3,11 @@ import { Renderer } from './scripts/renderer';
 
 class Main {
     checkingAccount: CheckingAccount;
+    title: string;
 
     constructor(/* private renderer: Renderer */) {
-        // Create CheckingAccount instance
-        this.checkingAccount = new CheckingAccount('John Doe Checking');
+      // Create CheckingAccount instance
+        this.checkingAccount = new CheckingAccount('Wells Fargo Checking');
         this.renderAccount();
     }
 

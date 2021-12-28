@@ -1,7 +1,9 @@
-﻿export class CheckingAccount {
+export class CheckingAccount {
     private _balance = 0; // field
 
-    constructor(public title: string) { }
+  constructor(public title: string) {
+    this.title = title;
+  }
 
     get balance() { // get block
         return this._balance;

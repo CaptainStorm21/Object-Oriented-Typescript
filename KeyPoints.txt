@@ -52,3 +52,37 @@ class Person {
     }
   }
   }
+
+
+  creating a class constructor
+  a constructor is called when a class is instantiated to create an object
+
+  a constructor can accept parameters that can be mapped ot the properties
+
+  class Person {
+
+    firstName: string;
+    lastName: string;
+
+      constructor (
+            firstName: string,
+            lastName: string)
+    {
+      this.firstName=firstName;
+      this.lastName = lastName;
+    }
+
+  }
+
+
+  automatic properties
+
+  properties can be defined in a constructor using accessiblity modifiers(private/public)
+  by using automatic property funcitonality, a property will be generated and constructor value will be mapped to it
+
+  class Person {
+    constructor (
+      public firstName: string,
+      public lastName: string
+    ) {}
+  }
