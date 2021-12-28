@@ -10,3 +10,45 @@ Principles of OO programming
 2.  encapsulation
 3.  inheritance
 4.  polymorphism
+
+
+role of the class
+1.  class is a blue print of an object (blueprint of the house)
+2.  object follows the blueprint's structure (the house built out of blueprint)
+
+what is in the class
+1.  Fields
+2.  Properties
+3.  Constructor
+4.  Functions/Methods
+
+
+class Person {
+
+  private _age: number;
+
+  // GET block is used to retrieve property data
+  get age(){
+    return this._age;
+  }
+
+  //  SET block is used to assign data to the backing field
+  set age (value: number){
+  if (value>0){
+    this._age = value;
+    }
+  }
+}
+
+/*
+creating a class function/method
+*/
+class Person {
+  placeOrder (productId: number, quantity: number) : OrderResponse{
+    // code to place here
+    return {
+      status: true,
+      orderId: 42
+    }
+  }
+  }
